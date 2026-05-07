@@ -2,28 +2,10 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import NavBar from '../components/NavBar.astro';
 import Hero from '../components/Hero.astro';
-import ContactForm from '../components/ContactForm.astro';
 import Footer from '../components/Footer.astro';
 ---
 <BaseLayout>
   <NavBar />
   <Hero />
-
-  <section id="about" class="py-16 bg-sand text-bark">
-    <div class="max-w-4xl mx-auto px-4">
-      <h2 class="text-3xl font-bold mb-4 text-center">Sobre Nosotros</h2>
-      <p class="text-lg leading-relaxed text-center">
-        Somos una empresa productora de madera sequoia en la región de Los Ríos. Ofrecemos madera de alta calidad desde el origen hasta tu proyecto, con precios directos del productor y un compromiso fuerte con la sostenibilidad y el reciclaje.
-      </p>
-    </div>
-  </section>
-
-  <section id="contact" class="py-16 bg-wood-100 text-bark">
-    <div class="max-w-2xl mx-auto px-4">
-      <h2 class="text-3xl font-bold mb-6 text-center">Contáctanos</h2>
-      <ContactForm />
-    </div>
-  </section>
-
   <Footer />
 </BaseLayout>

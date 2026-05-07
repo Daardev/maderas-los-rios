@@ -1,10 +1,10 @@
 ---
 ---
-<form class="grid gap-4 max-w-lg mx-auto" method="POST" action="/api/contact" netlify>
-  <input type="text" name="nombre" placeholder="Nombre" required class="p-2 border rounded" />
-  <input type="tel" name="telefono" placeholder="Teléfono" required class="p-2 border rounded" />
-  <input type="email" name="email" placeholder="Correo electrónico" required class="p-2 border rounded" />
-  <textarea name="mensaje" placeholder="Cuéntanos tu proyecto" rows="4" required class="p-2 border rounded"></textarea>
+<form class="grid gap-4 max-w-lg mx-auto p-6 rounded-lg" method="POST" action="/api/contact" netlify>
+  <input type="text" name="nombre" placeholder="Nombre" required class="p-2 border rounded bg-white bg-opacity-30" />
+  <input type="tel" name="telefono" placeholder="Teléfono" required class="p-2 border rounded bg-white bg-opacity-30" />
+  <input type="email" name="email" placeholder="Correo electrónico" required class="p-2 border rounded bg-white bg-opacity-30" />
+  <textarea name="mensaje" placeholder="Cuéntanos tu proyecto" rows="4" required class="p-2 border rounded bg-white bg-opacity-30"></textarea>
   <!-- Honeypot field -->
   <input type="text" name="website" class="hidden" tabindex="-1" autocomplete="off" />
   <button type="submit" class="bg-wood-600 text-white py-2 px-4 rounded hover:bg-wood-700">Enviar</button>
