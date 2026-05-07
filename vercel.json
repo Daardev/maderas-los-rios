@@ -1,16 +1,5 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "dist"
-      }
-    }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/$1" }
-  ],
-  "plugins": ["vercel/vercel-plugin"]
+  "framework": "astro",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist"
 }
