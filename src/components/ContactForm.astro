@@ -1,11 +1,11 @@
 ---
 import Input from './ui/input';
 ---
-<form class="grid w-full gap-4 p-6 rounded-lg" method="POST" action="/api/contact" netlify>
-  <Input type="text" name="nombre" placeholder="Nombre" required class="w-full" />
-  <Input type="tel" name="telefono" placeholder="Teléfono" required class="w-full" />
-  <Input type="email" name="email" placeholder="Correo electrónico" required class="w-full" />
-  <textarea name="mensaje" placeholder="Cuéntanos tu proyecto" rows="4" required class="w-full p-2 border border-white/50 rounded bg-black bg-opacity-30 text-white"></textarea>
+<form class="grid w-full gap-2 rounded-lg p-3 md:gap-4 md:p-6" method="POST" action="/api/contact" netlify>
+  <Input type="text" name="nombre" placeholder="Nombre" required class="h-9 w-full md:h-10" />
+  <Input type="tel" name="telefono" placeholder="Teléfono" required class="h-9 w-full md:h-10" />
+  <Input type="email" name="email" placeholder="Correo electrónico" required class="h-9 w-full md:h-10" />
+  <textarea name="mensaje" placeholder="Cuéntanos tu proyecto" rows="3" required class="w-full rounded border border-white/50 bg-black bg-opacity-30 p-2 text-white"></textarea>
   <!-- Honeypot field -->
   <input type="text" name="website" class="hidden" tabindex="-1" autocomplete="off" />
   <button type="submit" class="bg-black bg-opacity-30 text-white py-2 px-4 rounded hover:bg-black hover:bg-opacity-40">Enviar</button>
