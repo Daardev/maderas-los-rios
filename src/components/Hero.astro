@@ -1,0 +1,24 @@
+---
+import IconTree from '../components/IconTree.astro';
+import IconRecycle from '../components/IconRecycle.astro';
+---
+<section class="relative h-screen flex items-center justify-center text-white" id="hero">
+  <video class="absolute inset-0 w-full h-full object-cover" autoplay muted loop playsinline>
+    <source src="/src/assets/hero-bg.mp4" type="video/mp4" />
+    <source src="/src/assets/hero-bg.webm" type="video/webm" />
+    Tu navegador no soporta el video.
+  </video>
+  <div class="absolute inset-0 bg-black opacity-40"></div>
+  <div class="relative z-10 text-center px-4 max-w-2xl">
+    <h1 class="text-4xl md:text-6xl font-bold mb-4">
+      Maderas <span class="text-wood-600">Los Ríos</span>
+    </h1>
+    <p class="text-xl md:text-2xl mb-6">
+      Calidad y experiencia en madera de secuoya.
+    </p>
+    <div class="flex justify-center gap-6 text-3xl">
+      <IconTree />
+      <IconRecycle />
+    </div>
+  </div>
+</section>

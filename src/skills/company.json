@@ -1,0 +1,15 @@
+{
+  "name": "Maderas Los Ríos",
+  "tagline": "Calidad y experiencia en madera de secuoya",
+  "description": "Somos una empresa productora de madera sequoia en la región de Los Ríos, ofreciendo madera de alta calidad desde el origen hasta tu proyecto con precios directos del productor.",
+  "address": "Región de Los Ríos, Chile",
+  "phone": "+56 9 7351 8144",
+  "email": "ventas@maderaslosrios.cl",
+  "social": {
+    "facebook": "https://www.facebook.com/profile.php?id=61562703644417",
+    "instagram": "https://www.instagram.com/mlosrios",
+    "whatsapp": "https://wa.me/56973518144"
+  },
+  "heroVideo": "/src/assets/hero-bg.mp4",
+  "heroImageFallback": "/src/assets/hero-reference.png"
+}
