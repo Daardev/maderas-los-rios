@@ -1,11 +1,11 @@
 ---
 ---
-<form class="grid gap-4 max-w-lg mx-auto p-6 rounded-lg" method="POST" action="/api/contact" netlify>
-  <input type="text" name="nombre" placeholder="Nombre" required class="p-2 border rounded bg-white bg-opacity-30" />
-  <input type="tel" name="telefono" placeholder="Teléfono" required class="p-2 border rounded bg-white bg-opacity-30" />
-  <input type="email" name="email" placeholder="Correo electrónico" required class="p-2 border rounded bg-white bg-opacity-30" />
-  <textarea name="mensaje" placeholder="Cuéntanos tu proyecto" rows="4" required class="p-2 border rounded bg-white bg-opacity-30"></textarea>
+<form class="grid w-full gap-4 p-6 rounded-lg" method="POST" action="/api/contact" netlify>
+  <input type="text" name="nombre" placeholder="Nombre" required class="w-full p-2 border border-white/50 rounded bg-black bg-opacity-30 text-white" />
+  <input type="tel" name="telefono" placeholder="Teléfono" required class="w-full p-2 border border-white/50 rounded bg-black bg-opacity-30 text-white" />
+  <input type="email" name="email" placeholder="Correo electrónico" required class="w-full p-2 border border-white/50 rounded bg-black bg-opacity-30 text-white" />
+  <textarea name="mensaje" placeholder="Cuéntanos tu proyecto" rows="4" required class="w-full p-2 border border-white/50 rounded bg-black bg-opacity-30 text-white"></textarea>
   <!-- Honeypot field -->
   <input type="text" name="website" class="hidden" tabindex="-1" autocomplete="off" />
-  <button type="submit" class="bg-wood-600 text-white py-2 px-4 rounded hover:bg-wood-700">Enviar</button>
+  <button type="submit" class="bg-black bg-opacity-30 text-white py-2 px-4 rounded hover:bg-black hover:bg-opacity-40">Enviar</button>
 </form>
